@@ -80,8 +80,8 @@ class GenericCurl {
 
 class Infiny {
 
-    private $client_id = 'C2lSiitXDHufsOvyWrDs0Otnwpu9wuab11yCRlxD';
-    private $client_secret = 'Okbal1wXMvn34Tr9aKyRKDedrgQ2a4DorVFmg4ZI';
+    private $client_id = '**********';
+    private $client_secret = '**********';
 
     public $access_token; 
     public $refresh_token; 
