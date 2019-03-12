@@ -1,0 +1,534 @@
+{
+    "services": [
+        {
+            "id": 2017,
+            "name": "Test Service 1",
+            "vlan": 4,
+            "nni_vlan": null,
+            "created": "2019-03-08 12:55:04",
+            "expires": "2019-04-08 12:55:04",
+            "protected": "Network Protected",
+            "bandwidth": "2Mbps",
+            "paused": false,
+            "expired": false,
+            "type": "Inter-port Connection",
+            "type_short_name": "INT",
+            "service_town": "",
+            "status": "in service",
+            "port": {
+                "id": 857,
+                "ref": "clxp-HVv2Ioln",
+                "name": "London - Epsilon Global Hubs London - P15 (1Gbit)",
+                "datacentre_name": "London-Demo-5 - B72 1/1/G15",
+                "index": 14,
+                "speed": "1Gbit",
+                "throughput": 1000000,
+                "committed_bandwidth": "2Mb/sec",
+                "committed_bandwidth_raw": 2000,
+                "remaining_bandwidth": "998Mb/sec",
+                "remaining_bandwidth_raw": 998000,
+                "utilisation": "0.2%",
+                "utilisation_raw": "0.2",
+                "customer": "7d Digital",
+                "customer_id": 384,
+                "odf_position": "ODF 1 Block B Ports 1/16",
+                "regions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "Telehouse"
+                    },
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "Global"
+                    }
+                ],
+                "switch": {
+                    "id": 82,
+                    "index": 1
+                },
+                "slot": {
+                    "id": 80,
+                    "index": 1
+                },
+                "shelf": {
+                    "id": 74,
+                    "index": 1,
+                    "name": "London Demo 5"
+                },
+                "shelf_type": "DUMMY",
+                "network_alarms": [],
+                "services": [
+                    {
+                        "id": 2017,
+                        "name": "Test Service 1"
+                    }
+                ],
+                "service_type": {
+                    "id": 20,
+                    "name": "Inter-port Connection",
+                    "short_name": "INT",
+                    "logo_path": null,
+                    "regions": "",
+                    "category": "INT",
+                    "category_id": 3
+                },
+                "service_count": 1,
+                "single_use": 0,
+                "offnet_supplier_ref": "",
+                "offnet_supplier_ref_display": null,
+                "offnet_service_ref": "",
+                "offnet_service_ref_display": null,
+                "service_town": null,
+                "user_can_access": true,
+                "datacentre_datacentre_name": "Epsilon Global Hubs London",
+                "datacentre_logo": "/clx/datacentre-groups/8/datacentre-group/logo?realm=clx?_1530024260",
+                "datacentre_city": "London",
+                "datacentre_city_iso": "GB",
+                "status": "in service"
+            },
+            "b_port": {
+                "id": 859,
+                "ref": "clxp-Z8wJYFDy",
+                "name": "London - Epsilon Global Hubs London - P17 (1Gbit)",
+                "datacentre_name": "London-Demo-5 - B72 1/1/G17",
+                "index": 16,
+                "speed": "1Gbit",
+                "throughput": 1000000,
+                "committed_bandwidth": "2Mb/sec",
+                "committed_bandwidth_raw": 2000,
+                "remaining_bandwidth": "998Mb/sec",
+                "remaining_bandwidth_raw": 998000,
+                "utilisation": "0.2%",
+                "utilisation_raw": "0.2",
+                "customer": "7d Digital",
+                "customer_id": 384,
+                "odf_position": "ODF 1 Block B Ports 1/18",
+                "regions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "Telehouse"
+                    },
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "Global"
+                    }
+                ],
+                "switch": {
+                    "id": 82,
+                    "index": 1
+                },
+                "slot": {
+                    "id": 80,
+                    "index": 1
+                },
+                "shelf": {
+                    "id": 74,
+                    "index": 1,
+                    "name": "London Demo 5"
+                },
+                "shelf_type": "DUMMY",
+                "network_alarms": [],
+                "services": [
+                    {
+                        "id": 2017,
+                        "name": "Test Service 1"
+                    }
+                ],
+                "service_type": {
+                    "id": 20,
+                    "name": "Inter-port Connection",
+                    "short_name": "INT",
+                    "logo_path": null,
+                    "regions": "",
+                    "category": "INT",
+                    "category_id": 3
+                },
+                "service_count": 1,
+                "single_use": 0,
+                "offnet_supplier_ref": "",
+                "offnet_supplier_ref_display": null,
+                "offnet_service_ref": "",
+                "offnet_service_ref_display": null,
+                "service_town": null,
+                "user_can_access": true,
+                "datacentre_datacentre_name": "Epsilon Global Hubs London",
+                "datacentre_logo": "/clx/datacentre-groups/8/datacentre-group/logo?realm=clx?_1530024260",
+                "datacentre_city": "London",
+                "datacentre_city_iso": "GB",
+                "status": "in service"
+            }
+        },
+        {
+            "id": 2018,
+            "name": "Test Service UK - USA",
+            "vlan": 118,
+            "nni_vlan": null,
+            "created": "2019-03-08 12:56:07",
+            "expires": "2019-04-08 12:56:07",
+            "protected": "Unprotected",
+            "bandwidth": "2Mbps",
+            "paused": false,
+            "expired": false,
+            "type": "Inter-port Connection",
+            "type_short_name": "INT",
+            "service_town": "",
+            "status": "in service",
+            "port": {
+                "id": 886,
+                "ref": "clxp-SNBVzVLj",
+                "name": "Chicago - Equinix Chicago - P3 (1Gbit)",
+                "datacentre_name": "EPFR-PAR3-B72-1 1/1/G4",
+                "index": 4,
+                "speed": "1Gbit",
+                "throughput": 1000000,
+                "committed_bandwidth": "52Mb/sec",
+                "committed_bandwidth_raw": 52000,
+                "remaining_bandwidth": "948Mb/sec",
+                "remaining_bandwidth_raw": 948000,
+                "utilisation": "5.2%",
+                "utilisation_raw": "5.2",
+                "customer": "7d Digital",
+                "customer_id": 384,
+                "odf_position": "ODF 1 Block B Ports 3/3",
+                "regions": [
+                    {
+                        "name": "Chicago"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "US East"
+                    },
+                    {
+                        "name": "Global"
+                    }
+                ],
+                "switch": {
+                    "id": 81,
+                    "index": 1
+                },
+                "slot": {
+                    "id": 79,
+                    "index": 1
+                },
+                "shelf": {
+                    "id": 73,
+                    "index": 1,
+                    "name": "Chicago"
+                },
+                "shelf_type": "DUMMY",
+                "network_alarms": [],
+                "services": [
+                    {
+                        "id": 2018,
+                        "name": "Test Service UK - USA"
+                    },
+                    {
+                        "id": 2020,
+                        "name": "Azure Test Service "
+                    }
+                ],
+                "service_type": {
+                    "id": 20,
+                    "name": "Inter-port Connection",
+                    "short_name": "INT",
+                    "logo_path": null,
+                    "regions": "",
+                    "category": "INT",
+                    "category_id": 3
+                },
+                "service_count": 2,
+                "single_use": 0,
+                "offnet_supplier_ref": "",
+                "offnet_supplier_ref_display": null,
+                "offnet_service_ref": "",
+                "offnet_service_ref_display": null,
+                "service_town": null,
+                "user_can_access": true,
+                "datacentre_datacentre_name": "Equinix Chicago",
+                "datacentre_logo": "/clx/datacentre-groups/2/datacentre-group/logo?realm=clx?_1537881614",
+                "datacentre_city": "Chicago",
+                "datacentre_city_iso": "US",
+                "status": "in service"
+            },
+            "b_port": {
+                "id": 860,
+                "ref": "clxp-1bmvBi0r",
+                "name": "London - Epsilon Global Hubs London - P18 (1Gbit)",
+                "datacentre_name": "London-Demo-5 - B72 1/1/G18",
+                "index": 17,
+                "speed": "1Gbit",
+                "throughput": 1000000,
+                "committed_bandwidth": "52Mb/sec",
+                "committed_bandwidth_raw": 52000,
+                "remaining_bandwidth": "948Mb/sec",
+                "remaining_bandwidth_raw": 948000,
+                "utilisation": "5.2%",
+                "utilisation_raw": "5.2",
+                "customer": "7d Digital",
+                "customer_id": 384,
+                "odf_position": "ODF 1 Block B Ports 1/19",
+                "regions": [
+                    {
+                        "name": "London"
+                    },
+                    {
+                        "name": "Telehouse"
+                    },
+                    {
+                        "name": "Europe"
+                    },
+                    {
+                        "name": "Global"
+                    }
+                ],
+                "switch": {
+                    "id": 82,
+                    "index": 1
+                },
+                "slot": {
+                    "id": 80,
+                    "index": 1
+                },
+                "shelf": {
+                    "id": 74,
+                    "index": 1,
+                    "name": "London Demo 5"
+                },
+                "shelf_type": "DUMMY",
+                "network_alarms": [],
+                "services": [
+                    {
+                        "id": 2019,
+                        "name": "Azure Test Service "
+                    },
+                    {
+                        "id": 2018,
+                        "name": "Test Service UK - USA"
+                    }
+                ],
+                "service_type": {
+                    "id": 20,
+                    "name": "Inter-port Connection",
+                    "short_name": "INT",
+                    "logo_path": null,
+                    "regions": "",
+                    "category": "INT",
+                    "category_id": 3
+                },
+                "service_count": 2,
+                "single_use": 0,
+                "offnet_supplier_ref": "",
+                "offnet_supplier_ref_display": null,
+                "offnet_service_ref": "",
+                "offnet_service_ref_display": null,
+                "service_town": null,
+                "user_can_access": true,
+                "datacentre_datacentre_name": "Epsilon Global Hubs London",
+                "datacentre_logo": "/clx/datacentre-groups/8/datacentre-group/logo?realm=clx?_1530024260",
+                "datacentre_city": "London",
+                "datacentre_city_iso": "GB",
+                "status": "in service"
+            }
+        },
+        {
+            "id": 2020,
+            "name": "Azure Test Service ",
+            "vlan": 52,
+            "nni_vlan": null,
+            "created": "2019-03-08 12:57:46",
+            "expires": "2019-03-11 12:59:03",
+            "protected": "Unprotected",
+            "bandwidth": "50Mbps",
+            "paused": false,
+            "expired": false,
+            "type": "Microsoft Azure",
+            "type_short_name": "MSA",
+            "service_town": "London",
+            "status": "in service",
+            "port": {
+                "id": 886,
+                "ref": "clxp-SNBVzVLj",
+                "name": "Chicago - Equinix Chicago - P3 (1Gbit)",
+                "datacentre_name": "EPFR-PAR3-B72-1 1/1/G4",
+                "index": 4,
+                "speed": "1Gbit",
+                "throughput": 1000000,
+                "committed_bandwidth": "52Mb/sec",
+                "committed_bandwidth_raw": 52000,
+                "remaining_bandwidth": "948Mb/sec",
+                "remaining_bandwidth_raw": 948000,
+                "utilisation": "5.2%",
+                "utilisation_raw": "5.2",
+                "customer": "7d Digital",
+                "customer_id": 384,
+                "odf_position": "ODF 1 Block B Ports 3/3",
+                "regions": [
+                    {
+                        "name": "Chicago"
+                    },
+                    {
+                        "name": "United Kingdom"
+                    },
+                    {
+                        "name": "US East"
+                    },
+                    {
+                        "name": "Global"
+                    }
+                ],
+                "switch": {
+                    "id": 81,
+                    "index": 1
+                },
+                "slot": {
+                    "id": 79,
+                    "index": 1
+                },
+                "shelf": {
+                    "id": 73,
+                    "index": 1,
+                    "name": "Chicago"
+                },
+                "shelf_type": "DUMMY",
+                "network_alarms": [],
+                "services": [
+                    {
+                        "id": 2018,
+                        "name": "Test Service UK - USA"
+                    },
+                    {
+                        "id": 2020,
+                        "name": "Azure Test Service "
+                    }
+                ],
+                "service_type": {
+                    "id": 20,
+                    "name": "Inter-port Connection",
+                    "short_name": "INT",
+                    "logo_path": null,
+                    "regions": "",
+                    "category": "INT",
+                    "category_id": 3
+                },
+                "service_count": 2,
+                "single_use": 0,
+                "offnet_supplier_ref": "",
+                "offnet_supplier_ref_display": null,
+                "offnet_service_ref": "",
+                "offnet_service_ref_display": null,
+                "service_town": null,
+                "user_can_access": true,
+                "datacentre_datacentre_name": "Equinix Chicago",
+                "datacentre_logo": "/clx/datacentre-groups/2/datacentre-group/logo?realm=clx?_1537881614",
+                "datacentre_city": "Chicago",
+                "datacentre_city_iso": "US",
+                "status": "in service"
+            },
+            "secondary_service": {
+                "id": 2019,
+                "name": "Azure Test Service ",
+                "vlan": 52,
+                "nni_vlan": null,
+                "created": "2019-03-08 12:57:46",
+                "expires": "2019-03-11 12:59:02",
+                "protected": "Unprotected",
+                "bandwidth": "50Mbps",
+                "paused": false,
+                "expired": false,
+                "type": "Microsoft Azure",
+                "type_short_name": "MSA",
+                "service_town": "London",
+                "status": "in service",
+                "port": {
+                    "id": 860,
+                    "ref": "clxp-1bmvBi0r",
+                    "name": "London - Epsilon Global Hubs London - P18 (1Gbit)",
+                    "datacentre_name": "London-Demo-5 - B72 1/1/G18",
+                    "index": 17,
+                    "speed": "1Gbit",
+                    "throughput": 1000000,
+                    "committed_bandwidth": "52Mb/sec",
+                    "committed_bandwidth_raw": 52000,
+                    "remaining_bandwidth": "948Mb/sec",
+                    "remaining_bandwidth_raw": 948000,
+                    "utilisation": "5.2%",
+                    "utilisation_raw": "5.2",
+                    "customer": "7d Digital",
+                    "customer_id": 384,
+                    "odf_position": "ODF 1 Block B Ports 1/19",
+                    "regions": [
+                        {
+                            "name": "London"
+                        },
+                        {
+                            "name": "Telehouse"
+                        },
+                        {
+                            "name": "Europe"
+                        },
+                        {
+                            "name": "Global"
+                        }
+                    ],
+                    "switch": {
+                        "id": 82,
+                        "index": 1
+                    },
+                    "slot": {
+                        "id": 80,
+                        "index": 1
+                    },
+                    "shelf": {
+                        "id": 74,
+                        "index": 1,
+                        "name": "London Demo 5"
+                    },
+                    "shelf_type": "DUMMY",
+                    "network_alarms": [],
+                    "services": [
+                        {
+                            "id": 2019,
+                            "name": "Azure Test Service "
+                        },
+                        {
+                            "id": 2018,
+                            "name": "Test Service UK - USA"
+                        }
+                    ],
+                    "service_type": {
+                        "id": 20,
+                        "name": "Inter-port Connection",
+                        "short_name": "INT",
+                        "logo_path": null,
+                        "regions": "",
+                        "category": "INT",
+                        "category_id": 3
+                    },
+                    "service_count": 2,
+                    "single_use": 0,
+                    "offnet_supplier_ref": "",
+                    "offnet_supplier_ref_display": null,
+                    "offnet_service_ref": "",
+                    "offnet_service_ref_display": null,
+                    "service_town": null,
+                    "user_can_access": true,
+                    "datacentre_datacentre_name": "Epsilon Global Hubs London",
+                    "datacentre_logo": "/clx/datacentre-groups/8/datacentre-group/logo?realm=clx?_1530024260",
+                    "datacentre_city": "London",
+                    "datacentre_city_iso": "GB",
+                    "status": "in service"
+                }
+            }
+        }
+    ]
+}
